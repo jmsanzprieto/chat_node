@@ -1,0 +1,68 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        #chat-container {
+            display: flex;
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #messages {
+            list-style-type: none;
+            padding: 0;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+        #messages li {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background: #e9ecef;
+        }
+        #form {
+            display: flex;
+        }
+        #input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+        #send-btn {
+            margin-left: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #007bff;
+            color: white;
+        }
+        #user-list {
+            margin-left: 20px;
+            padding: 0;
+            list-style-type: none;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        #user-list li {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background: #e9ecef;
+            cursor: pointer;
+        }
+        #zona_mensajes{
+            width: 70%;
+        }
+        #zona_usuarios{
+            width: 30%;
+            padding: 8px;
+            text-align: end;
+        }
